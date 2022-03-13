@@ -13,7 +13,6 @@ body{
 .use-flex{
     display: flex;
     align-items: center;
-    padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -36,8 +35,8 @@ h4{
 p{
     font-size: 20;
     font-weight: 500;
-    margin-bottom: 50px;
     letter-spacing: .6px;
+    line-height: 25px;
 }
 .title-color{
     color: rgba(251, 162, 79, 1);
@@ -59,7 +58,7 @@ p{
  HEALTHY FOOD STYLE 
  ------------------------*/
 .right-side{
-    background-image: url(../images/shapes/Group\ 8449.png);
+    background-image: url(../images/shapes/Group\ 8450.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,8 +114,38 @@ ABOUT ME STYLE
       justify-content: space-between;
       margin-top: 90px;
       margin-bottom: 90px;
-
-  }  
+      
+    }  
+    /*--------------------
+    CONTACT US STYLE 
+    ------------------------*/
+    .contact-section{
+       margin-top: 90px;
+       margin-bottom: 90px;
+       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   }
+   .contact-section h3{
+       text-align: center;
+       padding-top: 20px;
+   }
+   .contact-us{
+       display: flex;
+       justify-content:space-around;
+       padding: 30px;
+   }
+   .log-in input{
+       display: block;
+       margin-bottom: 20px;
+       width: 80%;
+       padding: 10px 40px;
+       border:none;
+       text-align: left;
+       border-bottom: 1px solid rgba(251, 162, 79, 1);
+   }
+   .log-in input::placeholder{
+       text-align: left;
+       font-size: 16px;
+   }
   /*-----------------------
    FOOTER SECTION STYLE 
    -----------------------*/
