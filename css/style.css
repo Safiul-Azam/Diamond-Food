@@ -23,6 +23,7 @@ img{
 h2{
     font-size: 50px;
     color: #575757;
+    margin: 10px;
 }
 h3{
     font-size: 25px;
@@ -36,6 +37,7 @@ p{
     font-size: 20;
     font-weight: 500;
     margin-bottom: 50px;
+    letter-spacing: .6px;
 }
 .title-color{
     color: rgba(251, 162, 79, 1);
@@ -65,7 +67,7 @@ p{
     width: 60%;
 }
 .left-side{
-    width: 60%;
+    width: 70%;
 }
 /*-----------------
 ABOUT ME STYLE 
@@ -96,7 +98,7 @@ ABOUT ME STYLE
   }
   .article-part article{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
   }
   .recipi-title{
@@ -104,3 +106,29 @@ ABOUT ME STYLE
       text-align: center;
       margin: auto;
   }
+
+  /*---------------------
+   SOCIAL INFO STYLE 
+   -------------------------*/
+  .social-info{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 90px;
+      margin-bottom: 90px;
+
+  }  
+  /*-----------------------
+   FOOTER SECTION STYLE 
+   -----------------------*/
+   .footer{
+       background-color: #0B0D17;
+       padding: 15px;
+   }
+   .footer-section{
+       text-align: center;
+       columns: #5B5B5B;
+   }
+   .footer-section p{
+       color: #ffffff;
+       font-size: 16px;
+   }
