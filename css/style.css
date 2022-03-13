@@ -1,0 +1,64 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*----------------------
+ REUSABLE COMPONENT  
+---------------------------*/
+.container{
+    width:1100px;
+    margin:auto;
+}
+.use-flex{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-size: 50px;
+    color: #575757;
+}
+h3{
+    font-size: 25px;
+    color:#575757 ;
+}
+p{
+    font-size: 20;
+    margin-bottom: 50px;
+}
+.title-color{
+    color: rgba(251, 162, 79, 1);
+    
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgba(251, 162, 79, 1);
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color:rgb(230, 162, 98);
+}
+/*--------------------
+ HEALTHY FOOD STYLE 
+ ------------------------*/
+.right-side{
+    background-image: url(../images/shapes/Group\ 8449.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    width: 60%;
+}
+.left-side{
+    width: 60%;
+}
